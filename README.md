@@ -8,7 +8,7 @@ To get started with making this bot, you need to install a few libraries and get
 1. Go to https://developer.twitter.com/
 2. Log in with the twitter account you'd like to use.
 3. Go through the steps and fill out the forms to create your first "app."
-4. Go to details > Keys and tokens > and copy the generated keys to the bot.py key fields (at the top!).
+4. Go to details > Keys and tokens > Copy the generated keys into the blank key variables in bot.py (at the top!).
 ----------------------
 
 # INSTALLING LIBRARIES
