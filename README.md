@@ -1,26 +1,10 @@
 # magritte_bot
-A Twitter bot that spits out randomly generated parodies of The Treachery of Images
-
-To get started with making this bot, you need to install a few libraries and get your twitter API keys first.
-
-
-# API KEYS
-1. Go to https://developer.twitter.com/
-2. Log in with the twitter account you'd like to use.
-3. Go through the steps and fill out the forms to create your first "app."
-4. Go to details > Keys and tokens > Copy the generated keys into the blank key variables in bot.py (at the top!).
-----------------------
-
-# INSTALLING LIBRARIES
-
-Libraries required for the bot:
-  - Tweepy (https://www.tweepy.org)
-  - google-images-download (https://github.com/hardikvasa/google-images-download)
-  - Pillow (https://github.com/python-pillow/Pillow)
-----------------------
-
-Edit the words in the words.py file to your heart's content :)
-
-If you'd like to automate the bot, consider running a crontab on a raspberry pi (that's what I do)
-
-<b>Happy Botting!</b>
+**magritte_bot** was a Twitter bot that generated and Tweeted random *alternative* versions of René Magritte's 1929 painting [The Treachery of Images](https://en.wikipedia.org/wiki/The_Treachery_of_Images). The bot picks a random noun from a list, then downloads the first Google Images result for the noun that is a square PNG. Using the [Pillow](https://python-pillow.org/) and [Tweepy](https://www.tweepy.org/) libraries, the image is assebled and spit out on Twitter. The bot was written in Python, and tweeted twice a day per a [cronjob](https://en.wikipedia.org/wiki/Cron) on a Raspberry Pi in my dorm.
+# Links
+[Twitter Page](https://twitter.com/magritte_bot)
+[*Robots on Typewriters* Episode 40, featuring **magritte_bot**](https://www.batcamp.org/podcast/episode-40-ida-marmalade/)
+# Hall of Fame
+[1](https://twitter.com/Magritte_Bot/status/1151360150487408640?s=20)
+[2](https://twitter.com/Magritte_Bot/status/1234848572916600833?s=20)
+[3](https://twitter.com/Magritte_Bot/status/1206095815732797440?s=20)
+[4](https://twitter.com/Magritte_Bot/status/1175277751965757440?s=20)
