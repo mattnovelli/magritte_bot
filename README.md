@@ -1,5 +1,5 @@
 # magritte_bot
-**magritte_bot** was a Twitter bot that generated and Tweeted random *alternative* versions of René Magritte's 1929 painting [The Treachery of Images](https://en.wikipedia.org/wiki/The_Treachery_of_Images). The bot picks a random noun from a list, then downloads the first Google Images result for the noun that is a square PNG. Using the [Pillow](https://python-pillow.org/) and [Tweepy](https://www.tweepy.org/) libraries, the image is assebled and spit out on Twitter. The bot was written in Python, and tweeted twice a day per a [cronjob](https://en.wikipedia.org/wiki/Cron) on a Raspberry Pi in my dorm.
+**magritte_bot** was a Twitter bot that generated and Tweeted random versions of René Magritte's 1929 painting [The Treachery of Images](https://en.wikipedia.org/wiki/The_Treachery_of_Images). The bot picks a random noun from a list and downloads the first square PNG Google Images result. Using the [Pillow](https://python-pillow.org/) and [Tweepy](https://www.tweepy.org/) libraries, the image is assembled and spit out on Twitter. The bot is written in Python and tweeted twice a day per a [cronjob](https://en.wikipedia.org/wiki/Cron) on a Raspberry Pi in my dorm.
 # Links
 [Twitter Page](https://twitter.com/magritte_bot)
 
